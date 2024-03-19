@@ -1,0 +1,27 @@
+.card-container {
+  width: 70%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-left: 30px;
+  border: 1px solid #000;
+  display: flex;
+}
+.content {
+  margin-top: 50px;
+  cursor: pointer;
+}
+@media (max-width: 620px) {
+  .card-container {
+    height: 500px;
+    margin-left: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+}
